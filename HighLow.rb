@@ -1,7 +1,5 @@
 require "pry"
 numbers = [gets.to_i, gets.to_i, gets.to_i, gets.to_i, gets.to_i, gets.to_i, gets.to_i,]
-@high = nil
-@low = nil
 numbers.each_with_index do |n, i|
 if i == 0
   @high = n 
