@@ -60,6 +60,7 @@ def total
 print "#{c} "
 end
 @coins=[]
+puts ""
 end
 
 change
